@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from dreamguystech.com/preadmin/html/school/light/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 05 Dec 2021 08:55:55 GMT -->
+
+<head>
+	<meta charset="utf-8">
+	<title>Preschool - Bootstrap Admin Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.min.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- DevExtreme theme -->
+	<link rel="stylesheet" href="https://cdn3.devexpress.com/jslib/21.2.3/css/dx.light.css">
+
+	<!-- login css -->
+	<style>
+		#loginForm label.error {
+			color: red;
+			margin: 0;
+			text-transform: none;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="main-wrapper">
+		<div class="account-page">
+			<div class="container">
+				<h3 class="account-title text-white">Login</h3>
+				<div class="account-box">
+					<div class="account-wrapper">
+						<div class="account-logo">
+							<a href="index.html"><img src="assets/img/logo.png" alt="SchoolAdmin"></a>
+						</div>
+						<form id="loginForm" method="post">
+							<div class="form-group">
+								<label for="userName">Username</label>
+								<input type="text" class="form-control" id="username" name="username" required
+									placeholder="Enter Username">
+							</div>
+							<div class="form-group">
+								<label for="loginPassword">Password</label>
+								<input type="password" class="form-control" id="password" name="password" required
+									placeholder="Enter Password">
+							</div>
+							<div class="row">
+								<div class="col-sm">
+									<div class="form-check custom-control custom-checkbox">
+										<input id="remember" name="remember" class="custom-control-input"
+											type="checkbox">
+										<label class="custom-control-label" for="remember">Remember Me</label>
+									</div>
+								</div>
+								<div class="col-sm text-right"><a class="btn-link" href="forgotPassword.html">Forgot
+										Password?</a>
+								</div>
+							</div>
+							<button class="btn btn-primary btn-block my-4" id="login-button"
+								type="submit">Login</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="assets/js/jquery-3.6.0.min.js"></script>
+
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+	<script src="assets/js/jquery.slimscroll.js"></script>
+
+	<script src="assets/js/app.js"></script>
+
+	<!-- Thư viện dùng chung -->
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+	<script src="https://cdn3.devexpress.com/jslib/21.2.3/js/dx.all.js"></script>
+	<script src="../../assets/js/common/Notify.js"></script>
+	<script src="../../assets/js/common/ApiClient.js"></script>
+	<script src="../../assets/js/common/authentication.js"></script>
+
+	<!-- Login -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+	<script src="../../assets/js/common/Validation.js"></script>
+	<script src="../../assets/js/common/Form.js"></script>
+	<script src="../../assets/js/employee/login.js"></script>
+</body>
+
+<!-- Mirrored from dreamguystech.com/preadmin/html/school/light/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 05 Dec 2021 08:55:55 GMT -->
+
+</html>
